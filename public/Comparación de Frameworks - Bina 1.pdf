@@ -1,0 +1,340 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 1844
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+141.9599999999999511 785.1970866141732586 Td
+(Justificación del Uso de CodeIgniter y ReactJS) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 742.6774015748030706 Td
+() Tj
+T* (          Los frameworks CodeIgniter y ReactJS han sido seleccionados para esta actividad ) Tj
+T* (      debido a sus características independientes y enfoques únicos. Cabe recalcar que ) Tj
+T* (      no se combinan, cada uno funciona por separado en su respectivo entorno.) Tj
+T* () Tj
+T* (      1.  CodeIgniter:) Tj
+T* (          CodeIgniter es ideal para aplicaciones web backend basadas en PHP, gracias a su ) Tj
+T* (      facilidad de uso y rápida curva de aprendizaje. Esto lo hace una excelente opción ) Tj
+T* (      para implementar funcionalidades relacionadas con cifrado en servidores y sistemas ) Tj
+T* (      basados en PHP, donde se requiere velocidad de desarrollo y un alto rendimiento.) Tj
+T* () Tj
+T* (      2.  ReactJS:) Tj
+T* (          ReactJS, por su parte, es utilizado en el front-end para desarrollar interfaces de usuario ) Tj
+T* (      interactivas y modernas. Además, al aprovechar bibliotecas de cifrado en JavaScript, ) Tj
+T* (      como CryptoJS, ReactJS permite una implementación eficiente de algoritmos de cifrado ) Tj
+T* (      directamente en el cliente \(navegador\), lo que aumenta la flexibilidad y seguridad ) Tj
+T* (      en aplicaciones frontales.) Tj
+T* () Tj
+T* (          Ambos frameworks son poderosas herramientas en sus respectivos contextos de ) Tj
+T* (      desarrollo y permiten cubrir todas las necesidades de cifrado tanto en el lado del ) Tj
+T* (      servidor como del cliente.) Tj
+T* (    ) Tj
+ET
+BT
+/F3 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 42.5196850393700743 Td
+(Cipher Methods - © Haniel Tuxpeño & Raul Crescencio 7º B) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 1946
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+120.9599999999999085 785.1970866141732586 Td
+(Comparación de Frameworks: CodeIgniter V ReactJS) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+42.5196850393700814 742.6774015748030706 Td
+() Tj
+T* (        Este informe proporciona una comparación entre los dos frameworks utilizados, ) Tj
+T* (    Codeigniter y ReactJS, en cuanto a la implementación de métodos de cifrado.) Tj
+T* () Tj
+T* (    1.  Codeigniter:) Tj
+T* () Tj
+T* (        Codeigniter es un framework de desarrollo web para PHP que se enfoca en ) Tj
+T* (    aplicaciones rápidas y sencillas. En cuanto a los métodos de cifrado, Codeigniter) Tj
+T* (    proporciona una clase de cifrado integrada que facilita la implementación de ) Tj
+T* (    cifrados simétricos. Sin embargo, puede no ser tan flexible o personalizable) Tj
+T* (    como las soluciones más modernas basadas en JavaScript.) Tj
+T* () Tj
+T* (    2.  ReactJS:) Tj
+T* () Tj
+T* (        ReactJS, por otro lado, es una biblioteca de JavaScript utilizada principalmente) Tj
+T* (    para la construcción de interfaces de usuario. Al usar ReactJS en el front-end,) Tj
+T* (    los desarrolladores pueden aprovechar bibliotecas como CryptoJS para implementar) Tj
+T* (    cifrados simétricos y asimétricos, proporcionando una flexibilidad considerable) Tj
+T* (    para soluciones personalizadas. Además, ReactJS puede integrarse con diferentes ) Tj
+T* (    APIs de criptografía basadas en navegadores.) Tj
+T* () Tj
+T* (        En conclusión, aunque Codeigniter es más rápido de configurar en proyectos ) Tj
+T* (    basados en PHP, ReactJS ofrece una mayor flexibilidad y control al manejar) Tj
+T* (    cifrados, lo que lo convierte en una opción más poderosa para aplicaciones) Tj
+T* (    centradas en el front-end.) Tj
+T* (    ) Tj
+ET
+BT
+/F3 10 Tf
+11.5 TL
+0 g
+42.5196850393700814 42.5196850393700743 Td
+(Cipher Methods - © Haniel Tuxpeño & Raul Crescencio 7º B) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R ]
+/Count 2
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+/F7 13 0 R
+/F8 14 0 R
+/F9 15 0 R
+/F10 16 0 R
+/F11 17 0 R
+/F12 18 0 R
+/F13 19 0 R
+/F14 20 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+21 0 obj
+<<
+/Producer (jsPDF 2.5.2)
+/CreationDate (D:20241003115239-06'00')
+>>
+endobj
+22 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 23
+0000000000 65535 f 
+0000004183 00000 n 
+0000006008 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000002048 00000 n 
+0000002185 00000 n 
+0000004246 00000 n 
+0000004371 00000 n 
+0000004501 00000 n 
+0000004634 00000 n 
+0000004772 00000 n 
+0000004896 00000 n 
+0000005025 00000 n 
+0000005157 00000 n 
+0000005293 00000 n 
+0000005421 00000 n 
+0000005548 00000 n 
+0000005677 00000 n 
+0000005810 00000 n 
+0000005912 00000 n 
+0000006258 00000 n 
+0000006344 00000 n 
+trailer
+<<
+/Size 23
+/Root 22 0 R
+/Info 21 0 R
+/ID [ <CD7EA694F9C7AD3ED52F6DC8945515E3> <CD7EA694F9C7AD3ED52F6DC8945515E3> ]
+>>
+startxref
+6448
+%%EOF

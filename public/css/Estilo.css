@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+body {
+  background: linear-gradient(to right, #6a0dad, #1e90ff);
+}
+
+
+.App-header {
+  text-align: center;
+  background: linear-gradient(to right, #6a0dad, #1e90ff);
+  padding: 20px;
+  justify-content: center; /* Centra los elementos horizontalmente */
+  align-items: center; /* Centra los elementos verticalmente */
+  gap: 20px; /* Espacio entre los dos elementos */
+  width: auto;
+
+}
+
+.App-header2 {
+  text-align: center;
+  background: linear-gradient(to right, #6a0dad, #1e90ff);
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center; /* Centra los elementos horizontalmente */
+  align-items: center; /* Centra los elementos verticalmente */
+  gap: 20px; /* Espacio entre los dos elementos */
+  width: auto;
+}
+
+.img-menu{
+  width: 100px; /* Ajusta el tamaño según necesites */
+  height: auto;
+  margin: 30px;
+ 
+}
+
+
+.contenedor {
+  margin: 50px;
+  padding: 20px;
+  border: 1px solid #080808;
+  border-radius: 10px;
+  background: white;
+
+}
+
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 200px;
+}
+
+label {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+
+.mensaje{
+  padding: 10px;
+  width: auto;
+ 
+}
+
+.mensajeCifrado{
+ 
+  padding: 10px;
+  width: auto;
+ 
+}
+
+.numeroDesplazamiento{
+ margin: auto;
+  padding: 10px;
+  width: auto;
+  max-width: 50%;
+
+}
+
+
+.mensaje-error3 {
+  position: fixed; /* Para posicionarlo con respecto a la ventana del navegador */
+  top: 50%; /* Centrado vertical */
+  left: 50%; /* Centrado horizontal */
+  transform: translate(-50%, -50%); /* Ajuste para centrar completamente */
+  background-color: rgba(255, 0, 0, 0.8); /* Fondo rojo semitransparente */
+  color: white; /* Texto en blanco */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 8px; /* Bordes redondeados */
+  font-weight: bold; /* Texto en negrita */
+  font-size: 18px; /* Tamaño de fuente */
+  z-index: 1000; /* Para que el error se muestre encima de otros elementos */
+  text-align: center; /* Centrar el texto */
+  max-width: 80%; /* Para evitar que el mensaje ocupe todo el ancho de la pantalla */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para hacer el error más visible */
+}
+
+.imagenayuda{
+width: 100%;
+height: auto;
+}
+
+
+@media screen and (max-width: 768px) {
+  .formulario {
+    flex-direction: column;
+  }
+
+  input {
+    width: auto;
+  }
+
+  button {
+    width: auto;
+  }
+}
+
+.imagenes-esquinas {
+  display: flex;
+  justify-content: space-between;
+  top: 10px;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.imagen-info,
+.imagen-uso {
+  width: 30px; /* Ajusta el tamaño según necesites */
+  height: auto; /* Mantener la proporción de la imagen */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  
+}
+
+.tooltip {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  white-space: nowrap;
+  z-index: 100;
+  transform: translateY(-100%); /* Centra verticalmente el tooltip */
+}
+
+
+
+.imagen-cifrado{
+  width: 80px; /* Ajusta el tamaño según necesites */
+  height: auto;
+  margin: 30px;
+ 
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 2px; /* 20 píxeles desde la parte superior de la ventana */
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+}
+
+.modal-content {
+  background-color: white;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+  max-height: 70%;
+  overflow-y: auto; /* Habilitar scroll para contenido largo */
+  border-radius: 10px;
+  text-align: left; /* Alinear el texto a la izquierda */
+}
+
+.close-btn {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.input-contenedor {
+  display: flex;
+  align-items: center;
+}
+
+.boton-copiar_img {
+  width: 30px; /* Ajusta el tamaño según necesites */
+  height: auto; /* Mantener la proporción de la imagen */
+  font-size: 16px; /* Tamaño del ícono */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  color: #007bff; /* Color del ícono */
+  border: #007bff;
+}
+
+.boton-copiar_clave {
+  width: 50px; /* Ajusta el tamaño según necesites */
+  height: auto; /* Mantener la proporción de la imagen */
+  font-size: 16px; /* Tamaño del ícono */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  color: #007bff; /* Color del ícono */
+  border: #007bff;
+}
+
+.boton-copiar:hover {
+  color: #1eb300; /* Color al pasar el mouse */
+  border-color: #1eb300;
+}
+
+
+.tooltip-container {
+  position: relative; /* Necesario para posicionar el tooltip */
+  display: inline-block;
+}
+
+
+.tooltip-container::after {
+  content: attr(data-tooltip); /* Usa el atributo personalizado data-tooltip */
+  position: absolute;
+  bottom: 100%; /* Aparece encima de la imagen */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  white-space: nowrap;
+  opacity: 0; /* Oculto inicialmente */
+  pointer-events: none; /* Evita interferir con el mouse */
+  transition: opacity 0.3s ease;
+  font-size: 14px; /* Tamaño del texto del tooltip */
+}
+
+.tooltip-container:hover::after {
+  opacity: 1; /* Muestra el tooltip al pasar el cursor */
+}
+
+.oculto {
+  display: none;
+}
